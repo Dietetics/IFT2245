@@ -3,4 +3,5 @@ project(IFT2245 C)
 
 set(CMAKE_C_STANDARD 11)
 
-add_executable(IFT2245 main.c)
+add_executable(IFT2245 main.c
+        main.h)

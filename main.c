@@ -1,11 +1,8 @@
 #include <stdio.h>
 #include <unistd.h>  // Include this for fork()
 #include <sys/wait.h>  // Include this for wait()
+#include "main.h"
 
-int ex1();
-int ex2();
-int ex3();
-int ex4();
 
 int main()
 {
