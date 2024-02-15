@@ -5,7 +5,6 @@
 #ifndef IFT2245_MAIN_H
 #define IFT2245_MAIN_H
 
-void exE1();
 int ex1();
 int ex2();
 int ex3();
