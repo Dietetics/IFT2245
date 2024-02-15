@@ -8,6 +8,7 @@
  * l idee de l exercice:
  * 1.comprendre value=value+value >>> 2^N J
  * 2.connaitre condition de cours; solution avec mutex
+ */
 
 
 #define N 3 // Nombre de threads à créer
