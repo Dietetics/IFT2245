@@ -4,6 +4,20 @@
 #include <sys/wait.h>
 #include <pthread.h>
 
+/* code qui calcul la somme entre un interval de nombre
+ * a l aide de plusieurs threads.
+ * en synchro
+ *
+ * Voici:
+ * Start = 1, end = 25
+ * Start = 26, end = 50
+ * Start = 51, end = 75
+ * Start = 76, end = 100
+ * sum = 5050
+ * */
+
+
+
 #define INPUT_VALUE 100 // Définir la valeur totale à utiliser pour le calcul
 #define NUM_THREADS 4   // Définir le nombre de threads à utiliser
 
@@ -11,10 +25,15 @@ int sum; /* this data is shared by the thread(s) */
 
 void *runner(void *endpoints); /* the thread */
 
+
+
+
 struct interval {
     unsigned int start;
     unsigned int end;
 };
+
+
 
 int main(int argc, char *argv[])
 {

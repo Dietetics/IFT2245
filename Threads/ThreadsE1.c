@@ -1,6 +1,14 @@
 //
 // Created by 何永康 on 2024-02-14.
 //
+
+/*
+LINE A, value=10
+LINE B, value=10
+LINE A, value=5
+LINE B, value=5
+LINE B, value=5
+ */
 #include <stdio.h>
 #include <stdlib.h>
 #include <unistd.h>

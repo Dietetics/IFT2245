@@ -7,6 +7,9 @@
 /* code ajuster dans deux parties pour eviter les inputs,
  * 1. upper_limit
  * 2. arg[1] vers null
+ *
+ * code qui calcul la somme entre un interval de nombre
+ * a l aide dun thread
  * */
 
 #define UPPER_LIMIT 4 // Définir la limite supérieure pour le calcul de la somme
@@ -14,6 +17,11 @@
 int sum; /* this data is shared by the thread(s) */
 
 void *runner(void *param); /* the thread */
+
+
+
+
+
 
 int main(int argc, char *argv[])
 {
